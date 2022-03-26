@@ -1,5 +1,5 @@
 # Skincare Station
-https://marvelous-alpaca-efd2f8.netlify.app/
+https://exquisite-snickerdoodle-2b9415.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
