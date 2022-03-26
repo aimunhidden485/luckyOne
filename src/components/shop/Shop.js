@@ -21,6 +21,11 @@ const Shop = () => {
          const newCart =[...cart, product]
          setCart(newCart)
      }
+     const chooseOne=(cart, pd)=>{
+         const choose = Math.floor(Math.random() * 10)
+         const newCart =[...cart, pd]
+         console.log(newCart)
+     }
       
     return (
         <div className='shop'>
@@ -35,8 +40,8 @@ const Shop = () => {
                     {
                         cart.map(pd =><AddToCart pd={pd}></AddToCart>)
                     }
-                    <button className="choose-one">Choose one</button>
-                    <button className='reset'></button>
+                    <button onClick={chooseOne} className="cart-button">Choose one</button>
+                    <button className='cart-button'>Reset</button>
             </div>
         </div>
     );

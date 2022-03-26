@@ -17,3 +17,11 @@
     padding: 20px;
     position: sticky;
 }
+.cart-button{
+    padding: 10px;
+    background-color: #f10086;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    margin: 5px;
+}
