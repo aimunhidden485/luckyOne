@@ -1,4 +1,4 @@
-Skincare Station
+# Skincare Station
 this website shows some essential products for your skin
 # Getting Started with Create React App
 

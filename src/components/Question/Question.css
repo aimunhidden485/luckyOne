@@ -20,10 +20,9 @@ border: 1px solid #ffffff;
 background-color: #000000;
 padding: 20px;
 }
-@media screen and(max-width: 500px) {
+@media screen and (max-width: 500px){
     .questions{
-        
-        grid-template-columns: 1fr 1fr;
-        width: auto;
+        width: 90vh;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
