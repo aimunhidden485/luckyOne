@@ -32,6 +32,10 @@ const Shop = () => {
         document.getElementById('chosen-product-header').style.display='block'
        newCart = []
      }
+     const reset =(pd) =>{
+         const empty = []
+         setCart(empty)
+     }
       
     return (
         <div className='shop'>
@@ -47,7 +51,7 @@ const Shop = () => {
                         cart.map(pd =><AddToCart pd={pd}></AddToCart>)
                     }
                     <button onClick={chooseOne} className="cart-button">Choose one</button>
-                    <button className='cart-button'>Reset</button>
+                    <button onClick={reset} className='cart-button'>Reset</button>
                     <h3 id='chosen-product-header'>Chosen product:</h3>
                     <div className='carts-product'>
                 
