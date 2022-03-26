@@ -1,0 +1,11 @@
+.carts-product{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ffffff;
+    margin:  5px 0 5px 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+.carts-product img{
+    width: 50px;
+}

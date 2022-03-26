@@ -1,3 +1,19 @@
 .shop{
-    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px;
+    margin-top: 40px ;
+    margin-left:  40px;
+}
+.cart{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    height: 500px;
+    padding: 20px;
+    position: sticky;
 }
