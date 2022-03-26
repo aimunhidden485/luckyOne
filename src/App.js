@@ -9,8 +9,10 @@ function App() {
    <div>
      <div className="header">
        <h3>Skincare Station</h3>
+      </div>
+      <div>
+       <Shop></Shop>
      </div>
-     <Shop></Shop>
      <Question></Question>
    </div>
   );

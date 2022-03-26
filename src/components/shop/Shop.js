@@ -4,6 +4,7 @@ import Product from '../product/Product';
 import AddToCart from '../addToCart/AddToCart';
 
 const Shop = () => {
+    // products data added---------------------------------------
     const products =[
         {name: 'Aveeno mosturising lotion', price: 25, image: 'https://carnesia.com/wp-content/uploads/2021/11/unnamed-3-264x347.jpg',id: 1},
         {name: 'Beauty of joseon calming serum', price: 20, image: 'https://carnesia.com/wp-content/uploads/2022/01/Beauty_of_Joseon_Calming_serum__74687.1610560630-264x347.png',id: 2},
