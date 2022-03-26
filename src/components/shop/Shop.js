@@ -21,10 +21,13 @@ const Shop = () => {
          const newCart =[...cart, product]
          setCart(newCart)
      }
-     const chooseOne=(cart, pd)=>{
-         const choose = Math.floor(Math.random() * 10)
-         const newCart =[...cart, pd]
-         console.log(newCart)
+     const chooseOne=(pd)=>{
+         let newCart =[...cart, pd]
+         const choose = Math.floor(Math.random() * newCart.length-1)
+        const product = newCart[choose]
+        document.getElementById('chosen-product').innerText= product.name
+        document.getElementById('product-image').src =product.image
+       newCart = []
      }
       
     return (
@@ -42,6 +45,10 @@ const Shop = () => {
                     }
                     <button onClick={chooseOne} className="cart-button">Choose one</button>
                     <button className='cart-button'>Reset</button>
+                    <div className='carts-product'>
+            <img id='product-image' src='./' alt="" />
+            <p id='chosen-product'></p>
+        </div>
             </div>
         </div>
     );
