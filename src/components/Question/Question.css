@@ -1,8 +1,29 @@
 .questions{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
     border: 1px solid;
     background-color: #000000;
     color: #ffffff;
     padding: 20px;
+    
+  
+}
+.question h3{
+    text-align: center;
+    color: #F10086;
+}
+.question{
+margin: 20px;
+border: 1px solid #ffffff;
+background-color: #000000;
+padding: 20px;
+}
+@media screen and(max-width: 500px) {
+    .questions{
+        
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+    }
 }
