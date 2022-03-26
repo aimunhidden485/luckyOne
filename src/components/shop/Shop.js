@@ -25,7 +25,7 @@ const Shop = () => {
     //  -----------------------choose one from multiple option function added------------------------
      const chooseOne=(pd)=>{
          let newCart =[...cart, pd]
-         const choose = Math.floor(Math.random() * newCart.length)
+         const choose = Math.floor(Math.random() * newCart.length-1)
         const product = newCart[choose]
         document.getElementById('chosen-product').innerText= product.name
         document.getElementById('product-image').src =product.image
