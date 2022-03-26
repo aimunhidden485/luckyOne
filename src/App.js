@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Shop from './components/shop/Shop';
+import Question from './components/Question/Question';
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
        <h3>Skincare Station</h3>
      </div>
      <Shop></Shop>
+     <Question></Question>
    </div>
   );
 }

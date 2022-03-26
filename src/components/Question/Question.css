@@ -1,0 +1,8 @@
+.questions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
