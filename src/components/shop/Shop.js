@@ -27,6 +27,7 @@ const Shop = () => {
         const product = newCart[choose]
         document.getElementById('chosen-product').innerText= product.name
         document.getElementById('product-image').src =product.image
+        document.getElementById('chosen-product-header').style.display='block'
        newCart = []
      }
       
@@ -45,7 +46,9 @@ const Shop = () => {
                     }
                     <button onClick={chooseOne} className="cart-button">Choose one</button>
                     <button className='cart-button'>Reset</button>
+                    <h3 id='chosen-product-header'>Chosen product:</h3>
                     <div className='carts-product'>
+                
             <img id='product-image' src='./' alt="" />
             <p id='chosen-product'></p>
         </div>
